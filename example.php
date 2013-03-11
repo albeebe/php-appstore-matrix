@@ -14,25 +14,25 @@ Let's say you lowered an in-app purchase to $0.99 (USD) and you want to send a p
 First you get the <B>tier</B> for $0.99 USD.<BR>
 <UL>
 	<LI><PRE>tierForPriceWithCurrency("0.99", "USD")</PRE></LI>
-	<LI>return <B>1</B></LI>
+	<LI>returns <B>1</B></LI>
 </UL>
 <BR><BR>
-Next you get the <B>currency</B> code for japan<BR>
+Next you get the <B>currency</B> code for Japan<BR>
 <UL>
-	<LI><PRE>currencyForCountry("JP")</PRE></LI>
-	<LI>return <B>jpy</B></LI>
+	<LI><PRE>currencyForCountry("JA")</PRE></LI>
+	<LI>returns <B>JPY</B></LI>
 </UL>
 <BR><BR>
 Now you get the price for <b>JPY</b> in tier <B>1</B><BR>
 <UL>
 	<LI><PRE>priceForCurrencyInTier("JPY", "1")</PRE></LI>
-	<LI>return <B>85</B></LI>
+	<LI>returns <B>85</B></LI>
 </UL>
 <BR><BR>
 Finally you can format the price as it would be displayed in Japan<BR>
 <UL>
 	<LI><PRE>formatPriceWithCurrency("85", "JPY")</PRE></LI>
-	<LI>return <B>¥85</B></LI>
+	<LI>returns <B>¥85</B></LI>
 </UL>
 
 
